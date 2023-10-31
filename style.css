@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    font-family: Roboto, sans-serif;
+}
+
+.header
+{
+background-color:#1F2937 ;
+color: white;
+padding: 32px 100px 64px 100px;
+}
+.part1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0 ;
+    padding-bottom:32px;
+}
+.logo
+{
+    font-size: 24px;
+    color:#f9faf8;
+    font-weight: 900;
+}
+ul
+{
+ list-style-type: none;
+ margin:0;
+ padding: 0;
+ display:flex;
+ gap: 16px;
+}
+.textnearpicture
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    flex-grow: 1;
+    gap:16px;
+
+}
+.title
+{
+    font-size:48px;
+    color:#f9faf8;
+    font-weight:bolder;
+}
+.text 
+{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+#alm
+{
+    color:black;
+}
+button
+{
+    background-color: #3882F6;
+    color:white;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100px;
+
+}
+.img1
+{
+    width: 500px;
+    height: 300px;
+    flex: 1;
+}
+.middle
+{
+    text-align: center;
+    background-color:white;
+    padding: 32px 100px 64px 100px;
+}
+.title1
+{
+font-size: 36px;
+font-weight: bolder;
+color:#1F2937;
+margin-bottom:32px;
+}
+.box
+{
+display: flex;
+justify-content: center;
+gap:60px;
+}
+.inbox
+{
+    max-width: 180px;
+    
+}
+.img2
+{
+    width: 180px;
+    height: 200px;
+    border: 5px solid #659cf4;
+    border-radius: 30px;
+}
+.content
+{
+
+}
+.quote
+{
+
+}
+.footer
+{
+
+}
